@@ -2,7 +2,7 @@ regExps = {
 "exercise_1": /[A-Z][a-z]+/,
 "exercise_2": /088[1578]\d{6}/,
 "exercise_3": /[^01]+/,
-"exercise_4": /^[A-Za-z]([^!@#$%^&*()]{2,})$/,
+"exercise_4": /^[A-Za-z][\w.+]{2,13}$/,
 "exercise_5": /^([0-9]{1,3}|1[0-4]\d{2}|1500)$/,
 "exercise_6": /class=['"](.*)['"]/
 };
